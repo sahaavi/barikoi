@@ -2,9 +2,10 @@ import mysql.connector
 
 try:
     #connecting to database
+    #use your hostname, username, password, databasename
     connection = mysql.connector.connect(host='127.0.0.1',
                                          user='root',
-                                         password='Hello@8920',
+                                         password='pass',
                                          database='barikoi')
     if connection.is_connected():
         cursor = connection.cursor()
