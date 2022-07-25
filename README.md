@@ -1,4 +1,9 @@
-After completing the Task 2 I have updated the users table with the new users csv file in the database using the following code:
+After completing the Task 2 I truncated the users table using the following query:
+```sql
+TRUNCATE `barikoi`.`users`;
+```
+
+Then updated it with the new users csv file in the database using the following code:
 ```python
 import mysql.connector
 import csv
